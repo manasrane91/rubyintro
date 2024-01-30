@@ -17,15 +17,14 @@
 # puts "Hello, world"
 
 # store a random number in memory for the first die
-x = rand(1..6)
+die1 = rand(1..6)
 # store a random number in memory for the second die
-y = rand(1..6)
+die2 = rand(1..6)
 # store the total in memory
-total = x + y
+total = die1 + die2
 # write the first die to the screen in a user friendly way
-puts x
+puts "First die: #{die1}"
 # write the second die to the screen in a user friendly way
-puts y
+puts "Second die: #{die2}"
 # write the total to the screen in a user friendly way
-
-puts "total"
+puts "Total: #{total}"
